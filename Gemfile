@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'minitest-rails'
+gem 'minitest-rails', group: :test
 
 
 
