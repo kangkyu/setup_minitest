@@ -5,6 +5,10 @@ group :test do
   gem 'minitest-reporters'
 end
 
+group :development do
+  gem 'guard'
+  gem 'guard-minitest'
+end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
