@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'minitest-rails', group: :test
-
-
-
+group :test do
+  gem 'minitest-rails'
+  gem 'minitest-reporters'
+end
 
 
 
